@@ -115,29 +115,23 @@ function HeadSection(props) {
                     >
                       <Box mb={4}>
                         <Typography variant={isWidthUpLg ? "h3" : "h4"}>
-                          Free Template for building a SaaS app using
-                          Material-UI
+                        Learn, Intern & Get A Job
                         </Typography>
                       </Box>
+                      <h2>Guaranteed Internship/Placement Support !</h2><br>
+                      </br>
+                      Get a job with min 3LPA with our placement trainings power packed with resume development training, mock interviews,salary negotiation, communication skills development, group discussions, reasoning & aptitude and many more to get a job easier.
                       <div>
-                        <Box mb={2}>
-                          <Typography
-                            variant={isWidthUpLg ? "h6" : "body1"}
-                            color="textSecondary"
-                          >
-                            Lorem ipsum dolor sit amet, consetetur sadipscing
-                            elitr, sed diam nonumy eirmod tempor invidunt
-                          </Typography>
-                        </Box>
+                        
                         <Button
                           variant="contained"
                           color="secondary"
                           fullWidth
                           className={classes.extraLargeButton}
                           classes={{ label: classes.extraLargeButtonLabel }}
-                          href="https://github.com/dunky11/react-saas-template"
+                          href="https://skillsuprise.com/data/videos/demo.mp4"
                         >
-                          Download from GitHub
+                          Watch Demo
                         </Button>
                       </div>
                     </Box>
@@ -145,7 +139,8 @@ function HeadSection(props) {
                   <Hidden mdDown>
                     <Grid item md={6}>
                       <ZoomImage
-                        src={`${process.env.PUBLIC_URL}/images/logged_out/headerImage.jpg`}
+                        src={"https://skillsuprise.com/static/media/hero.d7a88438.png"}
+                        //`${process.env.PUBLIC_URL}/images/logged_out/headerImage.jpg`;
                         className={classes.image}
                         alt="header example"
                       />
@@ -173,3 +168,13 @@ HeadSection.propTypes = {
 };
 
 export default withStyles(styles, { withTheme: true })(HeadSection);
+
+
+/*<Box mb={2}>
+<Typography
+variant={isWidthUpLg ? "h6" : "body1"}
+color="textSecondary"
+>
+Take Your Career To Next Level through our personalised training programs.
+</Typography>
+</Box>*/

@@ -26,12 +26,6 @@ Remains of a SaaS business I once tried to build. Now transformed into a templat
    https://nodejs.org/en/
 
 ### Installing
-
-1. Clone the repository
-
-   ```
-   git clone https://github.com/dunky11/react-saas-template
-   ```
 2. Install dependencies, this can take a minute
 
    ```

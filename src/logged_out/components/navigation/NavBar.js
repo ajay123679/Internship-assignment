@@ -48,11 +48,11 @@ function NavBar(props) {
       name: "Home",
       icon: <HomeIcon className="text-white" />
     },
-    {
+    /*{
       link: "/blog",
       name: "Blog",
       icon: <BookIcon className="text-white" />
-    },
+    },*/
     {
       name: "Register",
       onClick: openRegisterDialog,
@@ -75,7 +75,7 @@ function NavBar(props) {
               display="inline"
               color="primary"
             >
-              Wa
+              Skills
             </Typography>
             <Typography
               variant="h4"
@@ -83,7 +83,7 @@ function NavBar(props) {
               display="inline"
               color="secondary"
             >
-              Ver
+              Uprise
             </Typography>
           </div>
           <div>

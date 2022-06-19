@@ -99,7 +99,7 @@ const socialIcons = [
       </svg>
     ),
     label: "Github",
-    href: "https://github.com/dunky11/react-saas-template",
+    href: "https://github.com/ajay123679",
   },
   {
     icon: (
@@ -227,8 +227,7 @@ function Footer(props) {
               About the Company
             </Typography>
             <Typography style={{ color: "#8f9296" }} paragraph>
-              Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce
-              euismod convallis velit, eu auctor lacus vehicula sit amet.
+            Best in class teaching methodologies integrated with cutting-edge technologies, delivered by expertised trainers to prepare students for the global workforce and create best career opportunities by equipping individuals with industry ready skills through personalised training programs.
             </Typography>
             <Box display="flex">
               {socialIcons.map((socialIcon, index) => (
